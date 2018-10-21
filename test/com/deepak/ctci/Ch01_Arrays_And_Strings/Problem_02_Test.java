@@ -19,19 +19,9 @@ public class Problem_02_Test {
 	 */
 	@Test
 	public void testValidPermutation_BruteForce() {
-		Assert.assertTrue(Problem_02.isValidPermutation_BruteForce("apple", "papel"));
-		Assert.assertTrue(Problem_02.isValidPermutation_BruteForce("carrot", "tarroc"));
-		Assert.assertFalse(Problem_02.isValidPermutation_BruteForce("hello", "llloh"));
-	}
-
-	/**
-	 * Test case to check valid permutation through optimized approach
-	 */
-	@Test
-	public void testValidPermutation_Optimized() {
-		Assert.assertTrue(Problem_02.isValidPermutation_Optimized("apple", "papel"));
-		Assert.assertTrue(Problem_02.isValidPermutation_Optimized("carrot", "tarroc"));
-		Assert.assertFalse(Problem_02.isValidPermutation_Optimized("hello", "llloh"));
+		Assert.assertTrue(Problem_02.isValidPermutation("apple", "papel"));
+		Assert.assertTrue(Problem_02.isValidPermutation("carrot", "tarroc"));
+		Assert.assertFalse(Problem_02.isValidPermutation("hello", "llloh"));
 	}
 
 }
