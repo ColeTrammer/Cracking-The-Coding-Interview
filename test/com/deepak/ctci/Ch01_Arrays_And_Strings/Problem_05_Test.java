@@ -26,6 +26,8 @@ public class Problem_05_Test {
 		Assert.assertTrue(Problem_05.isOneEditAway("pale", "bale"));
 		Assert.assertFalse(Problem_05.isOneEditAway("pale", "bake"));
 		Assert.assertFalse(Problem_05.isOneEditAway("Hello", "Hi"));
+		Assert.assertTrue(Problem_05.isOneEditAway("pale", "pal"));
+		Assert.assertFalse(Problem_05.isOneEditAway("eal", "lae"));
 	}
 
 }

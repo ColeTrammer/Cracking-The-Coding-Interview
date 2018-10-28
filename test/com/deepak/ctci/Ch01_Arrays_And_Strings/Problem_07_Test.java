@@ -43,7 +43,7 @@ public class Problem_07_Test {
 		System.out.println("Test Case 2 : Rotating Matrix in Place => ");
 		System.out.println("Actual Matrix : ");
 		HelperMethods.printGrid(matrix);
-		int[][] rotatedMatrix = Problem_07.rotateMatrixInPlace(matrix);
+		int[][] rotatedMatrix = Problem_07.rotateMatrix(matrix);
 		System.out.println("Rotated Matrix : ");
 		HelperMethods.printGrid(rotatedMatrix);
 		System.out.println();
